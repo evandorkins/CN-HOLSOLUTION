@@ -1,0 +1,647 @@
+{
+  "id": 23,
+  "name": "Grants",
+  "uniqueKey": "WSAGrant",
+  "itemsRetrieveResponseDTOs": [],
+  "itemsRetrieveResponses": [
+    {
+      "itemDataInfo": {
+        "title": "Earned",
+        "key": "Earned",
+        "env": null,
+        "urlparams": "Name=Earned"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Earned",
+          "@ExtraHours": false,
+          "@PayCode": "TOTAL PRODUCTIVE",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Fixed Annual DOH NoExpire FTE-Adjust NoQual",
+        "key": "Fixed%20Annual%20DOH%20NoExpire%20FTE-Adjust%20NoQual",
+        "env": null,
+        "urlparams": "Name=Fixed Annual DOH NoExpire FTE-Adjust NoQual"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "Fixed Annual DOH NoExpire FTE-Adjust NoQual",
+          "@ExtraHours": false,
+          "@DatePattern": "On Hire Date",
+          "@Prorate": true,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Fixed Annual DOH NoExpire NoAdjust NoQual",
+        "key": "Fixed%20Annual%20DOH%20NoExpire%20NoAdjust%20NoQual",
+        "env": null,
+        "urlparams": "Name=Fixed Annual DOH NoExpire NoAdjust NoQual"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "Fixed Annual DOH NoExpire NoAdjust NoQual",
+          "@ExtraHours": false,
+          "@DatePattern": "On Hire Date",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Fixed Annual Jul 1 Repeat NoExpire NoAdjust NoQual",
+        "key": "Fixed%20Annual%20Jul%201%20Repeat%20NoExpire%20NoAdjust%20NoQual",
+        "env": null,
+        "urlparams": "Name=Fixed Annual Jul 1 Repeat NoExpire NoAdjust NoQual"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "Fixed Annual Jul 1 Repeat NoExpire NoAdjust NoQual",
+          "@ExtraHours": false,
+          "@DatePattern": "Yearly 7-1",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Fixed Pay Period Repeat NoExpire Adjust NoQual",
+        "key": "Fixed%20Pay%20Period%20Repeat%20NoExpire%20Adjust%20NoQual",
+        "env": null,
+        "urlparams": "Name=Fixed Pay Period Repeat NoExpire Adjust NoQual"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "Fixed Pay Period Repeat NoExpire Adjust NoQual",
+          "@ExtraHours": false,
+          "@DatePattern": "Biweekly PP Start",
+          "@Prorate": true,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Christmas Day Credit",
+        "key": "HOL-Christmas%20Day%20Credit",
+        "env": null,
+        "urlparams": "Name=HOL-Christmas Day Credit"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "HOL-Christmas Day Credit",
+          "@ExtraHours": false,
+          "@PayCode": "Floating Holiday",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Christmas Day Minus 30",
+        "key": "HOL-Christmas%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Christmas Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Christmas Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Christmas Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Independence Day Minus 30",
+        "key": "HOL-Independence%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Independence Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Independence Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Independence Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Labor Day Minus 30",
+        "key": "HOL-Labor%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Labor Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Labor Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Labor Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Memorial Day Minus 30",
+        "key": "HOL-Memorial%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Memorial Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Memorial Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Memorial Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-MLK Day Minus 30",
+        "key": "HOL-MLK%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-MLK Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-MLK Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-MLK Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-New Years Day Minus 30",
+        "key": "HOL-New%20Years%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-New Years Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-New Years Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-New Years Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Presidents Day Minus 30",
+        "key": "HOL-Presidents%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Presidents Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Presidents Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Presidents Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Thanksgiving Day Minus 30",
+        "key": "HOL-Thanksgiving%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Thanksgiving Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Thanksgiving Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Thanksgiving Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "HOL-Veterans Day Minus 30",
+        "key": "HOL-Veterans%20Day%20Minus%2030",
+        "env": null,
+        "urlparams": "Name=HOL-Veterans Day Minus 30"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "HOL-Veterans Day Minus 30",
+          "@ExtraHours": false,
+          "@DatePattern": "HOL-Veterans Day Minus 30 Annual",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - New Years Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20New%20Years%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - New Years Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - New Years Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT NEW YEARS DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "PTO Sale Request",
+        "key": "PTO%20Sale%20Request",
+        "env": null,
+        "urlparams": "Name=PTO Sale Request"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": false,
+          "@Name": "PTO Sale Request",
+          "@ExtraHours": false,
+          "@PayCode": "PTO SALE REQUEST",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "TEST-DATE-PATTERN",
+        "key": "TEST-DATE-PATTERN",
+        "env": null,
+        "urlparams": "Name=TEST-DATE-PATTERN"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@Name": "TEST-DATE-PATTERN",
+          "@ExtraHours": false,
+          "@DatePattern": "PP Start +4 Workday Balance Imports",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "F",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Christmas Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Christmas%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Christmas Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Christmas Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT CHRISTMAS DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Independence Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Independence%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Independence Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Independence Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT INDEPENDENCE DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Labor Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Labor%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Labor Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Labor Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT LABOR DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Memorial Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Memorial%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Memorial Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Memorial Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT MEMORIAL DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - MLK Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20MLK%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - MLK Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - MLK Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT MLK DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Presidents Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Presidents%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Presidents Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Presidents Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT PRESIDENTS DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Thanksgiving Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Thanksgiving%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Thanksgiving Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Thanksgiving Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT THANKSGIVING DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Holiday Worked Banked Credit - Veterans Day",
+        "key": "Holiday%20Worked%20Banked%20Credit%20-%20Veterans%20Day",
+        "env": null,
+        "urlparams": "Name=Holiday Worked Banked Credit - Veterans Day"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAGrant": {
+          "@ProjectEarnings": true,
+          "@Name": "Holiday Worked Banked Credit - Veterans Day",
+          "@ExtraHours": false,
+          "@PayCode": "HOL CREDIT VETERANS DAY",
+          "@Prorate": false,
+          "@GrantOnce": false,
+          "@Increment": false,
+          "@Carryover": false,
+          "@RemoveInterval": true,
+          "@GrantType": "E",
+          "AccrualQualifiers": ""
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    }
+  ],
+  "additionalProperties": {},
+  "setupItemDTO": null,
+  "restProperties": null
+}

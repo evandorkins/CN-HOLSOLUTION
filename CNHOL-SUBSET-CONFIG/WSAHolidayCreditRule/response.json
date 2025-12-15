@@ -1,0 +1,2153 @@
+{
+  "id": 95,
+  "name": "Holiday Credit Rules",
+  "uniqueKey": "WSAHolidayCreditRule",
+  "itemsRetrieveResponseDTOs": [],
+  "itemsRetrieveResponses": [
+    {
+      "itemDataInfo": {
+        "title": "Exempt CHRISTMAS DAY",
+        "key": "Exempt%20CHRISTMAS%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt CHRISTMAS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt CHRISTMAS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt CHRISTMAS FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-CHRISTMAS PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT CHRISTMAS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT CHRISTMAS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT CHRISTMAS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt CHRISTMAS FORFEITED",
+        "key": "Exempt%20CHRISTMAS%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt CHRISTMAS FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt CHRISTMAS FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING CHRISTMAS",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT CHRISTMAS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT CHRISTMAS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT CHRISTMAS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt INDEPENDENCE DAY",
+        "key": "Exempt%20INDEPENDENCE%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt INDEPENDENCE DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt INDEPENDENCE DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt INDEPENDENCE DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-INDEPENDENCE DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT INDEPENDENCE DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT INDEPENDENCE DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT INDEPENDENCE DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt INDEPENDENCE DAY FORFEITED",
+        "key": "Exempt%20INDEPENDENCE%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt INDEPENDENCE DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt INDEPENDENCE DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING INDEPENDENCE DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT INDEPENDENCE DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT INDEPENDENCE DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT INDEPENDENCE DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt LABOR DAY",
+        "key": "Exempt%20LABOR%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt LABOR DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt LABOR DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt LABOR DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": true,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-LABOR DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT LABOR DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT LABOR DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT LABOR DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt LABOR DAY FORFEITED",
+        "key": "Exempt%20LABOR%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt LABOR DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt LABOR DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING LABOR DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT LABOR DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT LABOR DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT LABOR DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt MEMORIAL DAY",
+        "key": "Exempt%20MEMORIAL%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt MEMORIAL DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt MEMORIAL DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt MEMORIAL DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-MEMORIAL PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT MEMORIAL DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT MEMORIAL DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT MEMORIAL DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt MEMORIAL DAY FORFEITED",
+        "key": "Exempt%20MEMORIAL%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt MEMORIAL DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt MEMORIAL DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING MEMORIAL DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT MEMORIAL DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT MEMORIAL DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT MEMORIAL DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt MLK DAY",
+        "key": "Exempt%20MLK%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt MLK DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt MLK DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt MLK DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-MLK PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT MLK DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT MLK DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT MLK DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt MLK DAY FORFEITED",
+        "key": "Exempt%20MLK%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt MLK DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt MLK DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING MLK DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT MLK DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT MLK DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT MLK DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt NEW YEARS DAY",
+        "key": "Exempt%20NEW%20YEARS%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt NEW YEARS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt NEW YEARS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt NEW YEARS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-NEW YEAR PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT NEW YEARS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT NEW YEARS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT NEW YEARS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt NEW YEARS DAY FORFEITED",
+        "key": "Exempt%20NEW%20YEARS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt NEW YEARS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt NEW YEARS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING  NEW YEARS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT NEW YEARS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT NEW YEARS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT NEW YEARS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt PRESIDENTS DAY",
+        "key": "Exempt%20PRESIDENTS%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt PRESIDENTS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt PRESIDENTS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt PRESIDENTS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-PRESIDENTS DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT PRESIDENTS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT PRESIDENTS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT PRESIDENTS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt PRESIDENTS DAY FORFEITED",
+        "key": "Exempt%20PRESIDENTS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt PRESIDENTS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt PRESIDENTS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING PRESIDENTS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT PRESIDENTS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT PRESIDENTS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT PRESIDENTS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt THANKSGIVING DAY",
+        "key": "Exempt%20THANKSGIVING%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt THANKSGIVING DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt THANKSGIVING DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt THANKSGIVING DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-THANKSGIVING PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT THANKSGIVING DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT THANKSGIVING DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT THANKSGIVING DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt THANKSGIVING DAY FORFEITED",
+        "key": "Exempt%20THANKSGIVING%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt THANKSGIVING DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt THANKSGIVING DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING THANKSGIVING DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT THANKSGIVING DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT THANKSGIVING DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT THANKSGIVING DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt VETERANS DAY",
+        "key": "Exempt%20VETERANS%20DAY",
+        "env": null,
+        "urlparams": "name=Exempt VETERANS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt VETERANS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Exempt VETERANS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-VETERANS DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT VETERANS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT VETERANS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT VETERANS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Exempt VETERANS DAY FORFEITED",
+        "key": "Exempt%20VETERANS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Exempt VETERANS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Exempt VETERANS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING VETERANS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT VETERANS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT VETERANS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT VETERANS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt CHRISTMAS DAY",
+        "key": "Non%20Exempt%20CHRISTMAS%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt CHRISTMAS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt CHRISTMAS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt CHRISTMAS FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-CHRISTMAS PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT CHRISTMAS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT CHRISTMAS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT CHRISTMAS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt CHRISTMAS FORFEITED",
+        "key": "Non%20Exempt%20CHRISTMAS%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt CHRISTMAS FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt CHRISTMAS FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING CHRISTMAS",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT CHRISTMAS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT CHRISTMAS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT CHRISTMAS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt INDEPENDENCE DAY",
+        "key": "Non%20Exempt%20INDEPENDENCE%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt INDEPENDENCE DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt INDEPENDENCE DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt INDEPENDENCE DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-INDEPENDENCE DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT INDEPENDENCE DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT INDEPENDENCE DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT INDEPENDENCE DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt INDEPENDENCE DAY FORFEITED",
+        "key": "Non%20Exempt%20INDEPENDENCE%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt INDEPENDENCE DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt INDEPENDENCE DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING INDEPENDENCE DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT INDEPENDENCE DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT INDEPENDENCE DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT INDEPENDENCE DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt LABOR DAY",
+        "key": "Non%20Exempt%20LABOR%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt LABOR DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt LABOR DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt LABOR DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": true,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-LABOR DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT LABOR DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT LABOR DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT LABOR DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt LABOR DAY FORFEITED",
+        "key": "Non%20Exempt%20LABOR%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt LABOR DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt LABOR DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING LABOR DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT LABOR DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT LABOR DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT LABOR DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt MEMORIAL DAY",
+        "key": "Non%20Exempt%20MEMORIAL%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt MEMORIAL DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt MEMORIAL DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt MEMORIAL DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-MEMORIAL PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT MEMORIAL DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT MEMORIAL DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT MEMORIAL DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt MEMORIAL DAY FORFEITED",
+        "key": "Non%20Exempt%20MEMORIAL%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt MEMORIAL DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt MEMORIAL DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING MEMORIAL DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT MEMORIAL DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT MEMORIAL DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT MEMORIAL DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt MLK DAY",
+        "key": "Non%20Exempt%20MLK%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt MLK DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt MLK DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt MLK DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-MLK PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT MLK DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT MLK DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT MLK DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt MLK DAY FORFEITED",
+        "key": "Non%20Exempt%20MLK%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt MLK DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt MLK DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING MLK DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT MLK DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT MLK DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT MLK DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt NEW YEARS DAY",
+        "key": "Non%20Exempt%20NEW%20YEARS%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt NEW YEARS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt NEW YEARS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt NEW YEARS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-NEW YEAR PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT NEW YEARS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT NEW YEARS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT NEW YEARS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt NEW YEARS DAY FORFEITED",
+        "key": "Non%20Exempt%20NEW%20YEARS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt NEW YEARS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt NEW YEARS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING  NEW YEARS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT NEW YEARS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT NEW YEARS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT NEW YEARS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt PRESIDENTS DAY",
+        "key": "Non%20Exempt%20PRESIDENTS%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt PRESIDENTS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt PRESIDENTS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt PRESIDENTS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-PRESIDENTS DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT PRESIDENTS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT PRESIDENTS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT PRESIDENTS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt PRESIDENTS DAY FORFEITED",
+        "key": "Non%20Exempt%20PRESIDENTS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt PRESIDENTS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt PRESIDENTS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING PRESIDENTS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT PRESIDENTS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT PRESIDENTS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT PRESIDENTS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt THANKSGIVING DAY",
+        "key": "Non%20Exempt%20THANKSGIVING%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt THANKSGIVING DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt THANKSGIVING DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt THANKSGIVING DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-THANKSGIVING PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT THANKSGIVING DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT THANKSGIVING DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT THANKSGIVING DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt THANKSGIVING DAY FORFEITED",
+        "key": "Non%20Exempt%20THANKSGIVING%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt THANKSGIVING DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt THANKSGIVING DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING THANKSGIVING DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT THANKSGIVING DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT THANKSGIVING DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT THANKSGIVING DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt VETERANS DAY",
+        "key": "Non%20Exempt%20VETERANS%20DAY",
+        "env": null,
+        "urlparams": "name=Non Exempt VETERANS DAY"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt VETERANS DAY",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": true,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": true,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@AlternateHolidayCreditRuleName": "Non Exempt VETERANS DAY FORFEITED",
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "H-VETERANS DAY PENDING",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL CREDIT VETERANS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL CREDIT VETERANS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL CREDIT VETERANS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non Exempt VETERANS DAY FORFEITED",
+        "key": "Non%20Exempt%20VETERANS%20DAY%20FORFEITED",
+        "env": null,
+        "urlparams": "name=Non Exempt VETERANS DAY FORFEITED"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "WSAHolidayCreditRule": {
+          "@OvertimeLimitType": 2,
+          "@Name": "Non Exempt VETERANS DAY FORFEITED",
+          "WSAEligibilityDeterminer": {
+            "WSAEligibilityDeterminer": {
+              "@BeforeHolidaySwitch": false,
+              "@MustSatisfyAllSwitch": true,
+              "@MinimumTimeActiveValue": 0,
+              "@OnHolidaySwitch": false,
+              "@AfterHolidaySwitch": false,
+              "@MinimumTimeActiveUnit": 0,
+              "@MinimumTimeEmployedValue": 0,
+              "@EitherBeforeOrAfterHolidaySwitch": false,
+              "@ScheduledShiftTypeSwitch": false,
+              "EligibilityWorkHistoryQualifierNames": "",
+              "@MinimumTimeEmployedUnit": 0
+            }
+          },
+          "@DayOvertimeLimitType": 2,
+          "WSACreditCalculator": {
+            "WSACreditCalculator": {
+              "@ContributingShiftName": "FORFEIT PENDING VETERANS DAY",
+              "@ApplyHour": 5,
+              "@Round": "0:01",
+              "@CreditFixedAmount": "0:00",
+              "@AverageFixedNumber": 1,
+              "@AverageShiftsMinimum": 0,
+              "@Grace": "0:00",
+              "@HolidayDeduct": "U",
+              "@DefinedHolidayZone": 2,
+              "@AsIfWorkedSwitch": true,
+              "@MaxAmount": "99:59",
+              "@WageCalculation": true,
+              "@UseAllShiftsSwitch": false,
+              "@AverageSwitch": 3,
+              "CreditPayCodeNames": {
+                "SimpleValue": {
+                  "@Value": "HOL FORFEIT VETERANS DAY"
+                }
+              },
+              "@Type": 3,
+              "@AverageDaysMinimum": 0
+            }
+          },
+          "@OvertimeLimitPayCodeName": "HOL FORFEIT VETERANS DAY",
+          "@DayOvertimeLimitPayCodeName": "HOL FORFEIT VETERANS DAY"
+        },
+        "@Action": "RetrieveForUpdate"
+      }
+    }
+  ],
+  "additionalProperties": {},
+  "setupItemDTO": null,
+  "restProperties": null
+}

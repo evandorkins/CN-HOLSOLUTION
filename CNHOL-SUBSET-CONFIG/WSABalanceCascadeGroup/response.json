@@ -1,0 +1,256 @@
+{
+  "id": 29,
+  "name": "Balance Cascade Groups",
+  "uniqueKey": "WSABalanceCascadeGroup",
+  "itemsRetrieveResponseDTOs": [],
+  "itemsRetrieveResponses": [
+    {
+      "itemDataInfo": {
+        "title": "Exempt Balance Cascades",
+        "key": "Exempt%20Balance%20Cascades",
+        "env": null,
+        "urlparams": "Name=Exempt Balance Cascades"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "@Action": "RetrieveForUpdate",
+        "WSABalanceCascadeGroup": {
+          "@Name": "Exempt Balance Cascades",
+          "@Description": "",
+          "SelectedBalanceCascades": {
+            "WSASelectedBalanceCascades": [
+              {
+                "@Name": "HOL Payout Plus 30 - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Presidents Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Thanksgiving Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Veterans Day"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non-Exempt Balance Cascades",
+        "key": "Non-Exempt%20Balance%20Cascades",
+        "env": null,
+        "urlparams": "Name=Non-Exempt Balance Cascades"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "@Action": "RetrieveForUpdate",
+        "WSABalanceCascadeGroup": {
+          "@Name": "Non-Exempt Balance Cascades",
+          "@Description": "",
+          "SelectedBalanceCascades": {
+            "WSASelectedBalanceCascades": [
+              {
+                "@Name": "HOL Payout On Holiday - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Presidents Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Thanksgiving Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Veterans Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Presidents Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Thanksgiving Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Veterans Day"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non-Exempt CPA Balance Cascades",
+        "key": "Non-Exempt%20CPA%20Balance%20Cascades",
+        "env": null,
+        "urlparams": "Name=Non-Exempt CPA Balance Cascades"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "@Action": "RetrieveForUpdate",
+        "WSABalanceCascadeGroup": {
+          "@Name": "Non-Exempt CPA Balance Cascades",
+          "@Description": "",
+          "SelectedBalanceCascades": {
+            "WSASelectedBalanceCascades": [
+              {
+                "@Name": "HOL Payout On Holiday - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Thanksgiving Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Thanksgiving Day"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "itemDataInfo": {
+        "title": "Non-Exempt RSC Balance Cascades",
+        "key": "Non-Exempt%20RSC%20Balance%20Cascades",
+        "env": null,
+        "urlparams": "Name=Non-Exempt RSC Balance Cascades"
+      },
+      "responseObjectNode": {
+        "@Status": "Success",
+        "@Action": "RetrieveForUpdate",
+        "WSABalanceCascadeGroup": {
+          "@Name": "Non-Exempt RSC Balance Cascades",
+          "@Description": "",
+          "SelectedBalanceCascades": {
+            "WSASelectedBalanceCascades": [
+              {
+                "@Name": "HOL Payout On Holiday - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout On Holiday - Thanksgiving Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Christmas Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Independence Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Labor Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Memorial Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - MLK Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - New Years Day"
+              },
+              {
+                "@Name": "HOL Payout Plus 30 - Thanksgiving Day"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": {},
+  "setupItemDTO": null,
+  "restProperties": null
+}
